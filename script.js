@@ -15,7 +15,7 @@ for (let i = 0; i < count; i++) {
 const no = document.getElementById('no');
 const yes = document.getElementById('yes');
 const hint = document.getElementById('hint');
-const lines = ['Are you sure?', 'Please? 🥺', 'Pretty please?', "I'll bring snacks", 'The button is shy', 'Try the other one'];
+const lines = ['Are you sure?', 'Please? 🥺', 'Pretty please?', "I'll send Dunkin", 'The button is shy', 'Try the other one'];
 let n = 0;
 let scale = 1;
 
