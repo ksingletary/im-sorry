@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>I'm Sorry</title>
+<meta name="description" content="A little apology, made with love.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💗</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts" id="hearts" aria-hidden="true"></div>
+
+<main class="card" id="sorry">
+  <div class="big-heart" aria-hidden="true">♥</div>
+  <h1>I'm sorry.</h1>
+  <p>I messed up, and you didn't deserve that. I've been thinking about it all day, and I want to do better for you.</p>
+  <p>You mean the world to me. Can you forgive me?</p>
+  <div class="actions" id="actions">
+    <button id="yes" type="button">Yes 💕</button>
+    <button id="no" type="button">No</button>
+  </div>
+  <p class="hint" id="hint" aria-live="polite"></p>
+  <div class="sig">— Keith</div>
+</main>
+
+<main class="card" id="forgiven" hidden>
+  <div class="big-heart" aria-hidden="true">♥</div>
+  <h1>Thank you.</h1>
+  <p>I love you. Dinner's on me, and I'll make it up to you.</p>
+  <div class="sig">— Keith</div>
+</main>
+
+<footer class="credit">Made for <span id="for-name">YOUR_NAME_HERE</span>, by Keith ♥</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
